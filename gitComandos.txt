@@ -1,0 +1,8 @@
+git init
+git config --global user.name "Fulano de Tal" 
+ git config --global user.email fulanodetal@exemplo.br
+git add . 
+git commit -m "mensagem de commit"
+git branch -M main
+git remote add origin <link do repositório>
+git push -u origin main
